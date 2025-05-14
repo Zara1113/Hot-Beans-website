@@ -1,0 +1,85 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #ff5733;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* 📌 Left-aligned job section */
+.job-content {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 40px;
+}
+
+.text-section {
+    flex: 1;
+    text-align: left;
+}
+
+.image-section {
+    flex: 1;
+    text-align: center;
+}
+
+.image-section img {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-section img:hover {
+    transform: scale(1.05);
+}
+
+
+/* Job Opportunities Section Styling */
+.job-opportunities {
+    padding: 40px;
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+   }
+   .job-opportunities h2 {
+    font-size: 28px;
+    color: #e74c3c;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #e74c3c;
+    padding-bottom: 5px;
+   }
+   .job-opportunities ul {
+    list-style-type: disc;
+    padding-left: 20px;
+   }
+   .job-opportunities li {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 12px;
+   }

@@ -1,0 +1,7 @@
+.course a {
+    text-decoration: none;
+    color: #ff5733;
+   }
+   .course a:hover h3 {
+    text-decoration: underline;
+   }
